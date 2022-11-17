@@ -1,0 +1,25 @@
+import React from 'react';
+import { Image, StyleSheet, Text, View } from 'react-native';
+import foto from 'C:\Users\lucas\Downloads\MiConv.com__8FCB592B-E163-4F22-AC8F-E8C064EE267E.png'
+
+export default function App() {
+    return (
+        <View style ={StyleSheet.container}>
+            <Image source={foto} style={{ width: 305, height: 159 }} />
+
+            <Text style={{color: '#888', fontSize: 18}}>
+                LUCAS EDUARDO CAVALCANTI DE OLIVEIRA
+            </Text>
+        </View>
+
+    );
+}
+
+const styles = StyleSheet.create({
+    container : {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+});
