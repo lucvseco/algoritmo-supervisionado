@@ -1,2 +1,2 @@
-# Teste de acurácia em alguns modelos em python
-Testei alguns modelos para descobrir se o paciente teria chances de ter diabetes a partir de várias análises de modelos de supervisionados.
+# Aplicando modelos de algoritmos de aprendizado supervisionado
+Analisando os vários modelos usados para previsões e classificações existentes, selecionei alguns modelos para usar em cenários específicos.
